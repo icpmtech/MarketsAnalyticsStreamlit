@@ -9,7 +9,7 @@ import os
 load_dotenv()
 
 # Conectar ao Elasticsearch
-es = Elasticsearch(os.getenv("ES_URL", "http://localhost:9200"))
+es = Elasticsearch(os.getenv("ES_URL", "http://45.77.225.119:9200"))
 
 INDEX_NAME = "dividends"
 
